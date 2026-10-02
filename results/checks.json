@@ -1,0 +1,1086 @@
+{
+  "version": "25.2.0.3042426 (R2025b) Update 1",
+  "tests": [
+    {
+      "case": "HW1",
+      "passed": true,
+      "detail": "PDF outputs reproduced: 1, 0, NaN, 1."
+    },
+    {
+      "case": "HW2_1",
+      "passed": true,
+      "detail": "b.xls and c.xls match matrices; explicit A1:D103 preserves leading blank rows."
+    },
+    {
+      "case": "HW2_2",
+      "passed": true,
+      "detail": "All 12 statistics and regenerated workspace.mat checked."
+    },
+    {
+      "case": "HW3_1",
+      "passed": true,
+      "detail": "Selected 2x3 matrix and a.xls verified."
+    },
+    {
+      "case": "HW3_2",
+      "passed": true,
+      "detail": "All 12 Excel cells A1:L1 verified."
+    },
+    {
+      "case": "HW3_3",
+      "passed": true,
+      "detail": "Affine least squares A=1, b=3."
+    },
+    {
+      "case": "HW4_1",
+      "passed": true,
+      "detail": "OLS/regress agree: 16.49741432, 1.95856615."
+    },
+    {
+      "case": "HW4_2",
+      "passed": true,
+      "detail": "0 long, 12 short entry signals; cost assumptions retained."
+    },
+    {
+      "case": "HW4_3",
+      "passed": true,
+      "detail": "8 qualifying rows verified."
+    },
+    {
+      "case": "HW5_1",
+      "passed": true,
+      "detail": "47 odd ASCII codes verified."
+    },
+    {
+      "case": "HW5_2",
+      "passed": true,
+      "detail": "36 filtered rows and idx verified."
+    },
+    {
+      "case": "HW6_1",
+      "passed": true,
+      "detail": "90-day note price 99260.27397260."
+    },
+    {
+      "case": "HW6_2",
+      "passed": true,
+      "detail": "blsprice/parity, expiry and zero-volatility verified."
+    },
+    {
+      "case": "HW6_3",
+      "passed": true,
+      "detail": "Merton identity/nonnegative values verified at V=50,100,200."
+    },
+    {
+      "case": "HW7_1",
+      "passed": true,
+      "detail": "Zero-coupon and derivative checks; MD=4.62032235."
+    },
+    {
+      "case": "HW7_2",
+      "passed": true,
+      "detail": "Recovered yield 0.05000000; invalid bracket rejected."
+    },
+    {
+      "case": "HW8",
+      "passed": true,
+      "detail": "Recovered 24% IV: call 0.23999786, put 0.23999786."
+    },
+    {
+      "case": "HW9",
+      "passed": true,
+      "detail": "Pathwise parity passed; theoretical residual 0.03695015, SE 0.07196200."
+    },
+    {
+      "case": "HW10",
+      "passed": true,
+      "detail": "197 sample sizes; QMC 2.47971087; independent 100k MC 2.48306318 (SE 0.00752513); geometric benchmark passed."
+    },
+    {
+      "case": "HW11",
+      "passed": true,
+      "detail": "Put 6.65515676; immediate exercise verified; constant-variance call 9.29351887 vs BS 9.41340338; foreign rate=0 assumption."
+    },
+    {
+      "case": "HW12",
+      "passed": true,
+      "detail": "Dates 2022/5/6 to 2022/5/27; price 91.60547891, SE 0.85577818; independent MC 93.79924275."
+    },
+    {
+      "case": "HW13",
+      "passed": true,
+      "detail": "Independent CRR/parity: vanilla 21.40754476, out 13.50768854, in 7.89985622."
+    }
+  ],
+  "static": [
+    {
+      "file": "coursework\\HW10_112705018\\HW10_112705018.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW10_112705018\\HW10_112705018.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW11_112705018\\Heston_Leastsquare.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW11_112705018\\Heston_Leastsquare.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW12_112705018\\HW12_112705018.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW12_112705018\\HW12_112705018.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW13_112705018\\CRR_Barrier_Price.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW13_112705018\\CRR_Barrier_Price.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW13_112705018\\HW13_112705018.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW13_112705018\\HW13_112705018.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW2_112705018\\HW2_112705018_1\\HW2_112705018_1.m",
+      "messages": [
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 1,
+          "column": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 6,
+          "column": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 6,
+          "column": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 7,
+          "column": [
+            13,
+            15
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW2_112705018\\HW2_112705018_1\\HW2_112705018_1.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW2_112705018\\HW2_112705018_2\\HW2_112705018_2.m",
+      "messages": [
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 2,
+          "column": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 2,
+          "column": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 5,
+          "column": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 5,
+          "column": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 5,
+          "column": [
+            17,
+            19
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 8,
+          "column": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 8,
+          "column": [
+            10,
+            10
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 11,
+          "column": [
+            12,
+            12
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 11,
+          "column": [
+            18,
+            20
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 12,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 13,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 14,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 16,
+          "column": [
+            12,
+            12
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 16,
+          "column": [
+            18,
+            20
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 17,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 18,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 19,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 21,
+          "column": [
+            13,
+            13
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 21,
+          "column": [
+            20,
+            22
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 22,
+          "column": [
+            12,
+            12
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 23,
+          "column": [
+            12,
+            12
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 24,
+          "column": [
+            12,
+            12
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 26,
+          "column": [
+            12,
+            12
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 26,
+          "column": [
+            18,
+            20
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 27,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 28,
+          "column": [
+            11,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 29,
+          "column": [
+            11,
+            11
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW2_112705018\\HW2_112705018_2\\HW2_112705018_2.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW3_112705018\\HW3_112705018_1\\HW3_112705018_1.m",
+      "messages": {
+        "id": "NOPTS",
+        "message": "Add a semicolon after the statement to hide the output (in a script).",
+        "fix": 1,
+        "line": 2,
+        "column": [
+          3,
+          3
+        ]
+      },
+      "dependencies": [
+        "coursework\\HW3_112705018\\HW3_112705018_1\\HW3_112705018_1.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW3_112705018\\HW3_112705018_2\\HW3_112705018_2.m",
+      "messages": [
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 1,
+          "column": [
+            10,
+            10
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 2,
+          "column": [
+            16,
+            16
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW3_112705018\\HW3_112705018_2\\HW3_112705018_2.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW3_112705018\\HW3_112705018_3\\HW3_112705018_3.m",
+      "messages": [
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 4,
+          "column": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 5,
+          "column": [
+            6,
+            6
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 6,
+          "column": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 7,
+          "column": [
+            3,
+            3
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW3_112705018\\HW3_112705018_3\\HW3_112705018_3.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW4_112705018\\HW4_112705018_1\\HW4_112705018_1.m",
+      "messages": [
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 2,
+          "column": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 3,
+          "column": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 4,
+          "column": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 6,
+          "column": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "NBRAK1",
+          "message": "If you intend to specify expression precedence, use parentheses () instead of brackets [].",
+          "fix": 1,
+          "line": 6,
+          "column": [
+            22,
+            22
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 7,
+          "column": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "NBRAK2",
+          "message": "Use of brackets [] is unnecessary.",
+          "fix": 1,
+          "line": 7,
+          "column": [
+            13,
+            13
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW4_112705018\\HW4_112705018_1\\HW4_112705018_1.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW4_112705018\\HW4_112705018_2\\HW4_112705018_2.m",
+      "messages": [
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 4,
+          "column": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 5,
+          "column": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 6,
+          "column": [
+            9,
+            11
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW4_112705018\\HW4_112705018_2\\HW4_112705018_2.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW4_112705018\\HW4_112705018_3\\HW4_112705018_3.m",
+      "messages": [
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 3,
+          "column": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 3,
+          "column": [
+            17,
+            19
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 5,
+          "column": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 7,
+          "column": [
+            13,
+            15
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 8,
+          "column": [
+            14,
+            16
+          ]
+        },
+        {
+          "id": "NOPTS",
+          "message": "Add a semicolon after the statement to hide the output (in a script).",
+          "fix": 1,
+          "line": 13,
+          "column": [
+            15,
+            15
+          ]
+        },
+        {
+          "id": "NOANS",
+          "message": "Using ANS as a variable is not recommended as ANS is frequently overwritten by MATLAB.",
+          "fix": 0,
+          "line": 13,
+          "column": [
+            17,
+            19
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW4_112705018\\HW4_112705018_3\\HW4_112705018_3.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW5_112705018\\HW5_112705018_1\\HW5_112705018_1.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW5_112705018\\HW5_112705018_1\\HW5_112705018_1.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW5_112705018\\HW5_112705018_2\\HW5_112705018_2.m",
+      "messages": {
+        "id": "NOPTS",
+        "message": "Add a semicolon after the statement to hide the output (in a script).",
+        "fix": 1,
+        "line": 3,
+        "column": [
+          8,
+          8
+        ]
+      },
+      "dependencies": [
+        "coursework\\HW5_112705018\\HW5_112705018_2\\HW5_112705018_2.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW6_112705018\\HW6_112705018_1\\Price_cal.m",
+      "messages": {
+        "id": "NOPRT",
+        "message": "Add a semicolon after the statement to hide the output (in a function).",
+        "fix": 1,
+        "line": 2,
+        "column": [
+          7,
+          7
+        ]
+      },
+      "dependencies": [
+        "coursework\\HW6_112705018\\HW6_112705018_1\\Price_cal.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW6_112705018\\HW6_112705018_2\\BS_put_parity.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW6_112705018\\HW6_112705018_2\\BS_put_parity.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW6_112705018\\HW6_112705018_3\\Merton.m",
+      "messages": [
+        {
+          "id": "NASGU",
+          "message": "Value assigned to variable might be unused.",
+          "fix": 0,
+          "line": 3,
+          "column": [
+            5,
+            6
+          ]
+        },
+        {
+          "id": "NOPRT",
+          "message": "Add a semicolon after the statement to hide the output (in a function).",
+          "fix": 1,
+          "line": 24,
+          "column": [
+            16,
+            16
+          ]
+        },
+        {
+          "id": "NOPRT",
+          "message": "Add a semicolon after the statement to hide the output (in a function).",
+          "fix": 1,
+          "line": 26,
+          "column": [
+            16,
+            16
+          ]
+        }
+      ],
+      "dependencies": [
+        "coursework\\HW6_112705018\\HW6_112705018_3\\Merton.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        },
+        {
+          "Name": "Financial Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 30,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW7_112705018\\HW7_112705018_1\\MacaulayDuration.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW7_112705018\\HW7_112705018_1\\MacaulayDuration.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW7_112705018\\HW7_112705018_2\\Yield.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW7_112705018\\HW7_112705018_2\\Yield.m"
+      ],
+      "products": {
+        "Name": "MATLAB",
+        "Version": "25.2",
+        "ProductNumber": 1,
+        "Certain": true
+      }
+    },
+    {
+      "file": "coursework\\HW8_112705018\\implied_vol.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW8_112705018\\implied_vol.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    },
+    {
+      "file": "coursework\\HW9_112705018\\HW9_112705018.m",
+      "messages": [],
+      "dependencies": [
+        "coursework\\HW9_112705018\\HW9_112705018.m"
+      ],
+      "products": [
+        {
+          "Name": "MATLAB",
+          "Version": "25.2",
+          "ProductNumber": 1,
+          "Certain": true
+        },
+        {
+          "Name": "Statistics and Machine Learning Toolbox",
+          "Version": "25.2",
+          "ProductNumber": 19,
+          "Certain": true
+        }
+      ]
+    }
+  ]
+}

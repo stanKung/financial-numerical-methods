@@ -1,0 +1,8 @@
+Name,Passed,Evidence
+Bond identities,1,Zero coupon duration 5.00000000; coupon bond MD 4.62032235
+IV recovery,1,Maximum repricing error 8.51491767e-05
+European MC benchmark,1,Call 2.52287811; BS 2.51833909; MC SE 0.01138140
+Asian intervals,1,Final Sobol+CV 2.47971087; MC width 0.09371614; QMC width 0.00084971
+American immediate exercise,1,ATM American 6.63411134; same-path European 6.42894970; regression is in-sample
+Rainbow sampling error,1,Price 91.60547891; SE 0.85577818; 13 forecast observations
+Barrier parity and monotonicity,1,Barrier 90: vanilla 21.40754476 / out 13.50768854 / in 7.89985622

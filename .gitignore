@@ -1,0 +1,11 @@
+*.asv
+.DS_Store
+Thumbs.db
+*.log
+coursework/**/workspace.mat
+coursework/**/a.xls
+coursework/**/b.xls
+coursework/**/c.xls
+coursework/**/*_result.xlsx
+coursework/**/*_results.mat
+coursework/**/*.png

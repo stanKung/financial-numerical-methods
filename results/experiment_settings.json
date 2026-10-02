@@ -1,0 +1,44 @@
+{
+  "MATLAB": "25.2.0.3042426 (R2025b) Update 1",
+  "GeneratedAt": "2026-10-02 15:35:19",
+  "Heston": {
+    "kappa": 2,
+    "theta": 0.04,
+    "v0": 0.04,
+    "lambda": 0.2,
+    "r": 0.03,
+    "rho": -0.5,
+    "T": 1,
+    "K": 100,
+    "paths": 12000,
+    "steps": 60,
+    "seed": 20,
+    "foreignRate": 0
+  },
+  "Asian": {
+    "seed": 15,
+    "S0": 50,
+    "K": 52,
+    "r": 0.01,
+    "T": 0.25,
+    "vol": 0.22,
+    "steps": 60,
+    "pilotPaths": 4096,
+    "scrambles": 10
+  },
+  "European": {
+    "seed": 15,
+    "S0": 50,
+    "K": 48,
+    "r": 0.01,
+    "T": 0.083333333333333329,
+    "vol": 0.22
+  },
+  "Rainbow": {
+    "seed": 20,
+    "plotSeed": 44,
+    "paths": 20000,
+    "forecastDays": 13,
+    "r": 0.0274
+  }
+}
